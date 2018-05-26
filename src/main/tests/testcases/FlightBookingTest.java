@@ -26,7 +26,7 @@ public class FlightBookingTest {
 	}
 
 	
-	
+	@Test
 	public void testThatResultsAppearForAOneWayJourney(){
 		flightBookingPage=new FlightBookingPage();
 		flightBookingPage.LoadUrl("http://www.cleartrip.com");

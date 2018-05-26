@@ -24,7 +24,10 @@ public class FlightBookingPage extends SeleniumUtility {
 	By datePicker = By.xpath("//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]");
 	By serachBtn = By.id("SearchBtn");
 	By searchSummary=By.className("searchSummary");
-
+    By yourTripsLink=By.linkText("Your trips");
+    By signInLink=By.id("SignIn");
+    
+    
 	WebDriver driver;
 
 	public FlightBookingPage() {
@@ -73,5 +76,13 @@ public class FlightBookingPage extends SeleniumUtility {
 	        } catch (NoSuchElementException e) {
 	            return false;
 	        }
+	}
+	
+	public void clickOnYourTripLink(){
+		driver.findElement(yourTripsLink).click();
+	}
+	
+	public void clickOnSignInButton(){
+		driver.findElement(signInLink).click();
 	}
 }
