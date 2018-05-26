@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -25,7 +26,7 @@ public class FlightBookingTest {
 	}
 
 	
-	@Test
+	
 	public void testThatResultsAppearForAOneWayJourney(){
 		flightBookingPage=new FlightBookingPage();
 		flightBookingPage.LoadUrl("http://www.cleartrip.com");

@@ -12,6 +12,7 @@ public class BrowserUtility {
 	public static void setDriver(){
 		setDriverPath();
 		driver=new ChromeDriver();
+		driver.manage().window().maximize();
 	}
 	
 	public static WebDriver getDriver(){

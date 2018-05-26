@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [CodeTest]">
   <test name="RunEverything(failed)">
     <classes>
-      <class name="testcases.FlightBookingTest">
+      <class name="testcases.HotelBookingTest">
         <methods>
-          <include name="setFirstTimeBrowser"/>
-          <include name="afterTestMethod"/>
-          <include name="testThatResultsAppearForAOneWayJourney"/>
+          <include name="shouldBeAbleToSearchForHotels"/>
         </methods>
-      </class> <!-- testcases.FlightBookingTest -->
+      </class> <!-- testcases.HotelBookingTest -->
     </classes>
   </test> <!-- RunEverything(failed) -->
 </suite> <!-- Failed suite [CodeTest] -->
