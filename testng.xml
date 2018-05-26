@@ -3,7 +3,7 @@
 <test name="RunEverything">
 
 <packages>
-<package name="testcases.*"></package>
+<package name="testScenario.*"></package>
 </packages>
 
 </test>

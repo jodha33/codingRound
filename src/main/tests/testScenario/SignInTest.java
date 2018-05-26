@@ -1,4 +1,4 @@
-package testcases;
+package testScenario;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

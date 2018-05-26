@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="CodeTest" duration-ms="37148" started-at="2018-05-26T22:04:05Z" finished-at="2018-05-26T22:04:42Z">
+  <suite name="CodeTest" duration-ms="56505" started-at="2018-05-26T22:24:07Z" finished-at="2018-05-26T22:25:04Z">
     <groups>
     </groups>
-    <test name="RunEverything" duration-ms="37148" started-at="2018-05-26T22:04:05Z" finished-at="2018-05-26T22:04:42Z">
-      <class name="testcases.HotelBookingTest">
-        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:testcases.HotelBookingTest@4cc0edeb]" name="shouldBeAbleToSearchForHotels" duration-ms="11982" started-at="2018-05-27T03:34:22Z" finished-at="2018-05-27T03:34:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldBeAbleToSearchForHotels -->
-      </class> <!-- testcases.HotelBookingTest -->
-      <class name="testcases.SignInTest">
-        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:testcases.SignInTest@457e2f02]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="5806" started-at="2018-05-27T03:34:34Z" finished-at="2018-05-27T03:34:39Z">
+    <test name="RunEverything" duration-ms="56505" started-at="2018-05-26T22:24:07Z" finished-at="2018-05-26T22:25:04Z">
+      <class name="testScenario.SignInTest">
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:testScenario.SignInTest@457e2f02]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="8342" started-at="2018-05-27T03:54:54Z" finished-at="2018-05-27T03:55:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
-      </class> <!-- testcases.SignInTest -->
-      <class name="testcases.FlightBookingTest">
-        <test-method status="PASS" signature="setFirstTimeBrowser()[pri:0, instance:testcases.FlightBookingTest@7823a2f9]" name="setFirstTimeBrowser" is-config="true" duration-ms="6769" started-at="2018-05-27T03:34:05Z" finished-at="2018-05-27T03:34:11Z">
+      </class> <!-- testScenario.SignInTest -->
+      <class name="testScenario.HotelBookingTest">
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:testScenario.HotelBookingTest@4cc0edeb]" name="shouldBeAbleToSearchForHotels" duration-ms="21859" started-at="2018-05-27T03:54:32Z" finished-at="2018-05-27T03:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+      </class> <!-- testScenario.HotelBookingTest -->
+      <class name="testScenario.FlightBookingTest">
+        <test-method status="PASS" signature="setFirstTimeBrowser()[pri:0, instance:testScenario.FlightBookingTest@7823a2f9]" name="setFirstTimeBrowser" is-config="true" duration-ms="9989" started-at="2018-05-27T03:54:07Z" finished-at="2018-05-27T03:54:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setFirstTimeBrowser -->
-        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:testcases.FlightBookingTest@7823a2f9]" name="testThatResultsAppearForAOneWayJourney" duration-ms="10236" started-at="2018-05-27T03:34:11Z" finished-at="2018-05-27T03:34:22Z">
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:testScenario.FlightBookingTest@7823a2f9]" name="testThatResultsAppearForAOneWayJourney" duration-ms="14775" started-at="2018-05-27T03:54:17Z" finished-at="2018-05-27T03:54:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
-        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:testcases.FlightBookingTest@7823a2f9]" name="afterTestMethod" is-config="true" duration-ms="2325" started-at="2018-05-27T03:34:39Z" finished-at="2018-05-27T03:34:42Z">
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:testScenario.FlightBookingTest@7823a2f9]" name="afterTestMethod" is-config="true" duration-ms="1499" started-at="2018-05-27T03:55:02Z" finished-at="2018-05-27T03:55:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-      </class> <!-- testcases.FlightBookingTest -->
+      </class> <!-- testScenario.FlightBookingTest -->
     </test> <!-- RunEverything -->
   </suite> <!-- CodeTest -->
 </testng-results>

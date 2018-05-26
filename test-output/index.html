@@ -102,17 +102,17 @@
                     <div class="method-list-content passed suite-CodeTest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CodeTest" title="testcases.HotelBookingTest" hash-for-method="shouldBeAbleToSearchForHotels">shouldBeAbleToSearchForHotels</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CodeTest" title="testScenario.HotelBookingTest" hash-for-method="shouldBeAbleToSearchForHotels">shouldBeAbleToSearchForHotels</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CodeTest" title="testcases.SignInTest" hash-for-method="shouldThrowAnErrorIfSignInDetailsAreMissing">shouldThrowAnErrorIfSignInDetailsAreMissing</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CodeTest" title="testScenario.SignInTest" hash-for-method="shouldThrowAnErrorIfSignInDetailsAreMissing">shouldThrowAnErrorIfSignInDetailsAreMissing</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CodeTest" title="testcases.FlightBookingTest" hash-for-method="testThatResultsAppearForAOneWayJourney">testThatResultsAppearForAOneWayJourney</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CodeTest" title="testScenario.FlightBookingTest" hash-for-method="testThatResultsAppearForAOneWayJourney">testThatResultsAppearForAOneWayJourney</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CodeTest -->
@@ -130,7 +130,7 @@
           <div class="suite-CodeTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.SignInTest</span>
+              <span class="class-name">testScenario.SignInTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -145,7 +145,7 @@
           <div class="suite-CodeTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.HotelBookingTest</span>
+              <span class="class-name">testScenario.HotelBookingTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -160,7 +160,7 @@
           <div class="suite-CodeTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.FlightBookingTest</span>
+              <span class="class-name">testScenario.FlightBookingTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -184,12 +184,12 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;CodeTest&quot;&gt;
   &lt;test name=&quot;RunEverything&quot;&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;testcases.*&quot;/&gt;
+      &lt;package name=&quot;testScenario.*&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.FlightBookingTest&quot;/&gt;
-      &lt;class name=&quot;testcases.HotelBookingTest&quot;/&gt;
-      &lt;class name=&quot;testcases.SignInTest&quot;/&gt;
+      &lt;class name=&quot;testScenario.FlightBookingTest&quot;/&gt;
+      &lt;class name=&quot;testScenario.HotelBookingTest&quot;/&gt;
+      &lt;class name=&quot;testScenario.SignInTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- RunEverything --&gt;
 &lt;/suite&gt; &lt;!-- CodeTest --&gt;
@@ -232,21 +232,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'shouldBeAbleToSearchForHotels')
-data.setCell(0, 2, 'testcases.HotelBookingTest')
-data.setCell(0, 3, 11982);
+data.setCell(0, 2, 'testScenario.HotelBookingTest')
+data.setCell(0, 3, 21859);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testThatResultsAppearForAOneWayJourney')
-data.setCell(1, 2, 'testcases.FlightBookingTest')
-data.setCell(1, 3, 10236);
+data.setCell(1, 2, 'testScenario.FlightBookingTest')
+data.setCell(1, 3, 14775);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'shouldThrowAnErrorIfSignInDetailsAreMissing')
-data.setCell(2, 2, 'testcases.SignInTest')
-data.setCell(2, 3, 5806);
+data.setCell(2, 2, 'testScenario.SignInTest')
+data.setCell(2, 3, 8342);
 window.suiteTableData['CodeTest']= { tableData: data, tableDiv: 'times-div-CodeTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-CodeTest">
               </div> <!-- times-div-CodeTest -->
             </div> <!-- times-div -->
@@ -272,35 +272,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testScenario.FlightBookingTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setFirstTimeBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testThatResultsAppearForAOneWayJourney</span>
-                <span class="method-start">6784 ms</span>
+                <span class="method-start">10012 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.HotelBookingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testScenario.HotelBookingTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">shouldBeAbleToSearchForHotels</span>
-                <span class="method-start">17024 ms</span>
+                <span class="method-start">24792 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.SignInTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testScenario.SignInTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
-                <span class="method-start">29008 ms</span>
+                <span class="method-start">46653 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testScenario.FlightBookingTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTestMethod</span>
-                <span class="method-start">34816 ms</span>
+                <span class="method-start">54998 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

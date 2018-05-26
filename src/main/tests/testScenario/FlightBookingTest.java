@@ -1,4 +1,4 @@
-package testcases;
+package testScenario;
 
 import java.util.List;
 
