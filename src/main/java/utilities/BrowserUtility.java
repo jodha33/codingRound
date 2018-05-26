@@ -7,18 +7,18 @@ import com.sun.javafx.PlatformUtil;
 
 public class BrowserUtility {
 
-	private WebDriver driver;
+	private static WebDriver driver;
 		
-	public void setDriver(){
+	public static void setDriver(){
 		setDriverPath();
 		driver=new ChromeDriver();
 	}
 	
-	public WebDriver getDriver(){
+	public static WebDriver getDriver(){
 		return driver;
 	}
 	
-    private void setDriverPath() {
+    private static void setDriverPath() {
         if (PlatformUtil.isMac()) {
             System.setProperty("webdriver.chrome.driver", "chromedriver");
         }
@@ -30,7 +30,7 @@ public class BrowserUtility {
         }
     }
     
-    public void closeDriver(){
+    public static void closeDriver(){
     	driver.close();
     }
 }

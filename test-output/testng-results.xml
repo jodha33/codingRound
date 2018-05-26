@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CodeTest" duration-ms="11725" started-at="2018-05-26T13:23:59Z" finished-at="2018-05-26T13:24:10Z">
+  <suite name="CodeTest" duration-ms="18451" started-at="2018-05-26T16:05:51Z" finished-at="2018-05-26T16:06:09Z">
     <groups>
     </groups>
-    <test name="RunEverything" duration-ms="11725" started-at="2018-05-26T13:23:59Z" finished-at="2018-05-26T13:24:10Z">
-      <class name="testcases.HotelBookingTest">
-        <test-method status="PASS" signature="checkSomething()[pri:0, instance:testcases.HotelBookingTest@cc285f4]" name="checkSomething" duration-ms="11" started-at="2018-05-26T18:54:08Z" finished-at="2018-05-26T18:54:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkSomething -->
-      </class> <!-- testcases.HotelBookingTest -->
+    <test name="RunEverything" duration-ms="18451" started-at="2018-05-26T16:05:51Z" finished-at="2018-05-26T16:06:09Z">
       <class name="testcases.FlightBookingTest">
-        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:testcases.FlightBookingTest@c038203]" name="beforeTestMethod" is-config="true" duration-ms="6286" started-at="2018-05-26T18:53:59Z" finished-at="2018-05-26T18:54:05Z">
+        <test-method status="PASS" signature="setFirstTimeBrowser()[pri:0, instance:testcases.FlightBookingTest@7823a2f9]" name="setFirstTimeBrowser" is-config="true" duration-ms="5610" started-at="2018-05-26T21:35:51Z" finished-at="2018-05-26T21:35:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:testcases.FlightBookingTest@c038203]" name="testThatResultsAppearForAOneWayJourney" duration-ms="3263" started-at="2018-05-26T18:54:05Z" finished-at="2018-05-26T18:54:08Z">
+        </test-method> <!-- setFirstTimeBrowser -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:testcases.FlightBookingTest@7823a2f9]" name="testThatResultsAppearForAOneWayJourney" duration-ms="10681" started-at="2018-05-26T21:35:56Z" finished-at="2018-05-26T21:36:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
-        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:testcases.FlightBookingTest@c038203]" name="afterTestMethod" is-config="true" duration-ms="2133" started-at="2018-05-26T18:54:08Z" finished-at="2018-05-26T18:54:10Z">
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:testcases.FlightBookingTest@7823a2f9]" name="afterTestMethod" is-config="true" duration-ms="2134" started-at="2018-05-26T21:36:07Z" finished-at="2018-05-26T21:36:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->

@@ -1,35 +1,48 @@
 package testcases;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import pages.FlightBookingPage;
 import utilities.BrowserUtility;
 
 public class FlightBookingTest {
 
-	BrowserUtility browserUtility;
-	WebDriver driver;
-	public FlightBookingTest() {
-		browserUtility=new BrowserUtility();
-		
-	}
-	
+
+	FlightBookingPage flightBookingPage;
+
 	@BeforeTest
-	public void beforeTestMethod(){
-		browserUtility.setDriver();
-		driver=browserUtility.getDriver();
+	public void setFirstTimeBrowser(){
+		BrowserUtility.setDriver();
 	}
+
 	
 	@Test
 	public void testThatResultsAppearForAOneWayJourney(){
-		driver.get("http://www.google.com");
+		flightBookingPage=new FlightBookingPage();
+		flightBookingPage.LoadUrl("http://www.cleartrip.com");
+		flightBookingPage.clickOneWayButton();
+		flightBookingPage.enterFromLocationTextBox("Bangalore");
+		flightBookingPage.enterToLocationTextBox("Delhi");
+		flightBookingPage.selectDate();
+		flightBookingPage.clickOnSearchButton();
+		Assert.assertTrue(flightBookingPage.searchSummaryIsPresent());
 	}
+	
 	
 	@AfterTest
 	public void afterTestMethod(){
-		browserUtility.closeDriver();
+		BrowserUtility.closeDriver();
 	}
+	
+
 	
 }
