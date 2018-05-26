@@ -1,4 +1,5 @@
-import com.sun.javafx.PlatformUtil;
+package old;
+/*import com.sun.javafx.PlatformUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class FlightBookingTest {
+public class FlightBookingTestOld {
 
     WebDriver driver = new ChromeDriver();
 
@@ -87,3 +88,4 @@ public class FlightBookingTest {
         }
     }
 }
+*/

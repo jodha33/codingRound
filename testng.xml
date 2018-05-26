@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CodeTest" >
+<test name="RunEverything">
+<packages>
+<package name="testcases.*"></package>
+</packages>
+
+</test>
+
+</suite>

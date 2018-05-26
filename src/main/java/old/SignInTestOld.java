@@ -1,11 +1,12 @@
-import com.sun.javafx.PlatformUtil;
+package old;
+/*import com.sun.javafx.PlatformUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SignInTest {
+public class SignInTestOld {
 
     WebDriver driver = new ChromeDriver();
 
@@ -49,3 +50,4 @@ public class SignInTest {
 
 
 }
+*/
